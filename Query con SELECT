@@ -28,6 +28,6 @@ where level = "magistrale";
 select count(*)
 from departments;
 
-select id 
+select count(*) 
 from teachers
 where phone is null;
