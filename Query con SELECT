@@ -25,7 +25,7 @@ select id
 from degrees
 where level = "magistrale";
 
-select id
+select count(*)
 from departments;
 
 select id 
